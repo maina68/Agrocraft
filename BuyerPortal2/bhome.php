@@ -636,7 +636,7 @@ include("../Functions/functions.php");
     <div class="container">
 
         <div class="text-center">
-            <h1 id="headings" class="longguard"><span><b>Best Selling Products All Over India </b></span>
+            <h1 id="headings" class="longguard"><span><b>Best Selling Products All Over Kenya </b></span>
             </h1>
         </div>
         <br>
