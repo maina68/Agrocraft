@@ -1048,101 +1048,101 @@
                     </thead>
                     <tr align="center" class=trow>
                          <th align="center">1</th>
-                         <th align="center">Hyderabad</th>
-                         <th align="center">Andhra Pradesh</th>
-                         <th align="center">Telugu</th>
+                         <th align="center">Nairobi</th>
+                         <th align="center">Nairobi</th>
+                         <th align="center">English</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">2</th>
-                         <th align="center">Patna</th>
-                         <th align="center">Bihar | Jharkhand</th>
-                         <th align="center">Hindi</th>
+                         <th align="center">Thika</th>
+                         <th align="center">Kiambu</th>
+                         <th align="center">English</th>
 
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">3</th>
-                         <th align="center">Jaipur</th>
-                         <th align="center">Delhi | Rajasthan</th>
-                         <th align="center">Hindi</th>
+                         <th align="center">Gatanga</th>
+                         <th align="center">Murang'a</th>
+                         <th align="center">English/Kiswahili/Kikuyu</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">4</th>
-                         <th align="center">Ahmadabad/Anand</th>
-                         <th align="center">Gujarat | Dadra & Nagar Haveli | Daman & Diu</th>
-                         <th align="center">Gujarati | Goan</th>
+                         <th align="center">Kinangop</th>
+                         <th align="center">Nyandarua</th>
+                         <th align="center">English/Kiswahili/Kikuyu</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">5</th>
-                         <th align="center">Chandigarh</th>
-                         <th align="center">Haryana | Punjab | Chandigarh | Himachal Pradesh</th>
-                         <th align="center">Hindi/Haryanvi | Punjabi | Hindi</th>
+                         <th align="center">Mombasa</th>
+                         <th align="center">Mombasa</th>
+                         <th align="center">Kiswahili</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">6</th>
-                         <th align="center">Jammu</th>
-                         <th align="center">Jammu and Kashmir</th>
-                         <th align="center">Dogri, Kashmiri, Ladakh</th>
+                         <th align="center">Machakos</th>
+                         <th align="center">Machakos</th>
+                         <th align="center">English/Kiswahili/Kamba</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">7</th>
-                         <th align="center">Bangalore</th>
-                         <th align="center">Karnataka | Kerala | Lakshadweep</th>
-                         <th align="center">Kannada | Malayalam</th>
+                         <th align="center">Kisumu</th>
+                         <th align="center">Kisumu</th>
+                         <th align="center">English/Kiswahili/Luo</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">8</th>
-                         <th align="center">Jabalpur</th>
-                         <th align="center">Madhya Pradesh | Chhattisgarh</th>
-                         <th align="center">Hindi</th>
+                         <th align="center">Isiolo</th>
+                         <th align="center">Isiolo</th>
+                         <th align="center">English/Kiswahili</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">9</th>
-                         <th align="center">Nagpur/Pune</th>
-                         <th align="center">Maharashtra | Goa</th>
-                         <th align="center">Marathi | Goan</th>
+                         <th align="center">Wajir</th>
+                         <th align="center">Wajir</th>
+                         <th align="center">English/Kiswahili</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">10</th>
-                         <th align="center">Coimbatore</th>
-                         <th align="center">Tamil Nadu | Puducherry | Andaman & Nicobar</th>
-                         <th align="center">Tamil</th>
+                         <th align="center">Nakuru</th>
+                         <th align="center">Nakuru</th>
+                         <th align="center">English/Kiswahili</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">11</th>
-                         <th align="center">Kanpur</th>
-                         <th align="center">Uttar Pradesh | Uttarakhand</th>
-                         <th align="center">Hindi</th>
+                         <th align="center">Kakamega</th>
+                         <th align="center">Kakamega</th>
+                         <th align="center">English/Kiswahili/Luhyia</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">12</th>
-                         <th align="center">Kolkata</th>
-                         <th align="center">West Bengal | Sikkim</th>
-                         <th align="center">Bengali | Sikkimese</th>
+                         <th align="center">Embu</th>
+                         <th align="center">Embu</th>
+                         <th align="center">English/Kiswahili/Embu</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">13</th>
-                         <th align="center">Bhubaneshwar</th>
-                         <th align="center">Orissa</th>
-                         <th align="center">Oriya</th>
+                         <th align="center">Nandi</th>
+                         <th align="center">Nandi</th>
+                         <th align="center">English/Kiswahili/kalenjin</th>
 
                     </tr>
                     <tr align="center" class=trow>
                          <th align="center">14</th>
-                         <th align="center">Guwahati</th>
-                         <th align="center">Arunachal Pradesh | Assam | Manipur | Meghalaya | Mizoram | Nagaland | Tripura</th>
-                         <th align="center">Adi | Assamese | Manipuri | Khasi | Mizo | Nagamese | Bengali</th>
+                         <th align="center">Kisii</th>
+                         <th align="center">Kisii</th>
+                         <th align="center">English/Kiswahili/Kisii</th>
 
                     </tr>
 
