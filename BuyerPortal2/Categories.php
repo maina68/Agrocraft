@@ -20,73 +20,98 @@ include("../Functions/functions.php");
      <script>
           function state() {
                var a = document.getElementById('states').value;
-               if (a === 'ANDAMAN & NICOBAR ISLANDS') {
-                    var array = ['Select District', 'Andamans', 'Nicobars'];
-               } else if (a === 'ANDHRA PRADESH') {
-                    var array = ['Select District', 'Adilabad', 'Nizamabad', 'Karimnagar', 'Medak', 'Hyderabad', 'Rangareddi', 'Mahbubnagar', 'Nalgonda', 'Warangal', 'Khammam', 'Srikakulam', 'Vizianagaram', 'Visakhapatnam', 'East Godavari', 'West Godavari', 'Krishna', 'Guntur', 'Prakasam', 'Nellore', 'Cuddapah', 'Kurnool', 'Anantapur', 'Chittoor'];
-               } else if (a === 'ASSAM') {
-                    var array = ['Select District', 'Kokrajhar', 'Dhubri', 'Goalpara', 'Bongaigaon', 'Barpeta', 'Kamrup', 'Nalbari', 'Darrang', 'Marigaon', 'Nagaon', 'Sonitpur', 'Lakhimpur', 'Dhemaji', 'Tinsukia', 'Dibrugarh', 'Sibsagar', 'Jorhat', 'Golaghat', 'Karbi Anglong', 'North Cachar Hills', 'Cachar', 'Karimganj', 'Hailakandi'];
-               } else if (a === 'BIHAR') {
-                    var array = ['Select District', 'Pashchim Champaran', 'Purba Champaran', 'Sheohar *', 'Sitamarhi', 'Madhubani', 'Supaul *', 'Araria', 'Kishanganj', 'Purnia', 'Katihar', 'Madhepura', 'Saharsa', 'Darbhanga', 'Muzaffarpur', 'Gopalganj', 'Siwan', 'Saran', 'Vaishali', 'Samastipur', 'Begusarai', 'Khagaria', 'Bhagalpur', 'Banka *', 'Munger', 'Lakhisarai *', 'Sheikhpura *', 'Nalanda', 'Patna', 'Bhojpur', 'Buxar *', 'Kaimur (Bhabua) *', 'Rohtas', 'Jehanabad ', 'Aurangabad', 'Gaya', 'Nawada', 'Jamui *'];
-               } else if (a === 'GUJARAT') {
-                    var array = ['Select District', 'Kachchh', 'Banas Kantha', 'Patan  *', 'Mahesana', 'Sabar Kantha', 'Gandhinagar', 'Ahmadabad', 'Surendranagar', 'Rajkot', 'Jamnagar', 'Porbandar  *', 'Junagadh', 'Amreli', 'Bhavnagar', 'Anand  *', 'Kheda', 'Panch Mahals', 'Dohad  *', 'Vadodara', 'Narmada  *', 'Bharuch', 'Surat', 'The Dangs', 'Navsari  *', 'Valsad'];
-               } else if (a === 'HARYANA') {
-                    var array = ['Select District', 'Panchkula *', 'Ambala', 'Yamunanagar', 'Kurukshetra', 'Kaithal', 'Karnal', 'Panipat', 'Sonipat', 'Jind', 'Fatehabad *', 'Sirsa', 'Hisar', 'Bhiwani', 'Rohtak', 'Jhajjar *', 'Mahendragarh', 'Rewari', 'Gurgaon', 'Faridabad'];
-               } else if (a === 'HIMACHAL PRADESH') {
-                    var array = ['Select District', 'Chamba', 'Kangra', 'Lahul & Spiti', 'Kullu', 'Mandi', 'Hamirpur', 'Una', 'Bilaspur', 'Solan', 'Sirmaur', 'Shimla', 'Kinnaur'];
-               } else if (a === 'JAMMU AND KASHMIR') {
-                    var array = ['Select District', 'Kupwara', 'Baramula', 'Srinagar', 'Badgam', 'Pulwama', 'Anantnag', 'Leh (Ladakh)', 'Kargil', 'Doda', 'Udhampur', 'Punch', 'Rajauri', 'Jammu', 'Kathua'];
-               } else if (a === 'KARNATAKA') {
-                    var array = ['Select District', 'Belgaum', 'Bagalkot *', 'Bijapur', 'Gulbarga', 'Bidar', 'Raichur', 'Koppal *', 'Gadag *', 'Dharwad', 'Uttara Kannada', 'Haveri *', 'Bellary', 'Chitradurga', 'Davangere*', 'Shimoga', 'Udupi *', 'Chikmagalur', 'Tumkur', 'Kolar', 'Bangalore', 'Bangalore Rural', 'Mandya', 'Hassan', 'Dakshina Kannada', 'Kodagu', 'Mysore', 'Chamrajnagar*'];
-               } else if (a === 'KERALA') {
-                    var array = ['Select District', 'Kasaragod', 'Kannur', 'Wayanad', 'Kozhikode', 'Malappuram', 'Palakkad', 'Thrissur', 'Ernakulam', 'Idukki', 'Kottayam', 'Alappuzha', 'Pathanamthitta', 'Kollam', 'Thiruvananthapuram'];
-               } else if (a === 'MADHYA PRADESH') {
-                    var array = ['Select District', 'Sheopur *', 'Morena', 'Bhind', 'Gwalior', 'Datia', 'Shivpuri', 'Guna', 'Tikamgarh', 'Chhatarpur', 'Panna', 'Sagar', 'Damoh', 'Satna', 'Rewa', 'Umaria *', 'Shahdol', 'Sidhi', 'Neemuch *', 'Mandsaur', 'Ratlam', 'Ujjain', 'Shajapur', 'Dewas', 'Jhabua', 'Dhar', 'Indore', 'West Nimar', 'Barwani *', 'East Nimar', 'Rajgarh', 'Vidisha', 'Bhopal', 'Sehore', 'Raisen', 'Betul', 'Harda *', 'Hoshangabad', 'Katni *', 'Jabalpur', 'Narsimhapur', 'Dindori *', 'Mandla', 'Chhindwara', 'Seoni', 'Balaghat'];
-               } else if (a === 'MAHARASHTRA') {
-                    var array = ['Select District', 'Nandurbar *', 'Dhule', 'Jalgaon', 'Buldana', 'Akola', 'Washim *', 'Amravati', 'Wardha', 'Nagpur', 'Bhandara', 'Gondiya *', 'Gadchiroli', 'Chandrapur', 'Yavatmal', 'Nanded', 'Hingoli *', 'Parbhani', 'Jalna', 'Aurangabad', 'Nashik', 'Thane', 'Mumbai (Suburban) *', 'Mumbai', 'Raigarh', 'Pune', 'Ahmadnagar', 'Bid', 'Latur', 'Osmanabad', 'Solapur', 'Satara', 'Ratnagiri', 'Sindhudurg', 'Kolhapur', 'Sangli'];
-               } else if (a === 'TAMIL NADU') {
-                    var array = ['Select District', 'Thiruvallur', 'Chennai', 'Kancheepuram', 'Vellore', 'Dharmapuri', 'Tiruvannamalai', 'Viluppuram', 'Salem', 'Namakkal   *', 'Erode', 'The Nilgiris', 'Coimbatore', 'Dindigul', 'Karur  *', 'Tiruchirappalli', 'Perambalur  *', 'Ariyalur  *', 'Cuddalore', 'Nagapattinam  *', 'Thiruvarur', 'Thanjavur', 'Pudukkottai', 'Sivaganga', 'Madurai', 'Theni  *', 'Virudhunagar', 'Ramanathapuram', 'Thoothukkudi', 'Tirunelveli ', 'Kanniyakumari'];
-               } else if (a === 'PUDUCHERRY') {
-                    var array = ['Select District', 'Yanam', 'Pondicherry', 'Mahe', 'Karaikal'];
-               } else if (a === 'LAKSHADWEEP') {
-                    var array = ['Select District', 'Lakshadweep'];
-               } else if (a === 'GOA') {
-                    var array = ['Select District', 'North Goa ', 'South Goa'];
-               } else if (a === 'DADRA AND NAGAR HAVELI') {
-                    var array = ['Select District', 'Dadra & Nagar Haveli'];
-               } else if (a === 'DAMAN AND DIU') {
-                    var array = ['Select District', 'Diu', 'Daman'];
-               } else if (a === 'CHHATTISGARH') {
-                    var array = ['Select District', 'Koriya *', 'Surguja', 'Jashpur *', 'Raigarh', 'Korba *', 'Janjgir - Champa*', 'Bilaspur', 'Kawardha *', 'Rajnandgaon', 'Durg', 'Raipur', 'Mahasamund *', 'Dhamtari *', 'Kanker *', 'Baster', 'Dantewada*'];
-               } else if (a === 'JHARKAND') {
-                    var array = ['Garhwa *', 'Palamu', 'Chatra *', 'Hazaribag', 'Kodarma *', 'Giridih', 'Deoghar', 'Godda', 'Sahibganj', 'Pakaur *', 'Dumka', 'Dhanbad', 'Bokaro *', 'Ranchi', 'Lohardaga', 'Gumla', 'Pashchimi Singhbhum', 'Purbi Singhbhum', 'ORISSA', 'Bargarh  *', 'Jharsuguda  *', 'Sambalpur', 'Debagarh  *', 'Sundargarh', 'Kendujhar', 'Mayurbhanj', 'Baleshwar', 'Bhadrak  *', 'Kendrapara *', 'Jagatsinghapur  *', 'Cuttack', 'Jajapur  *', 'Dhenkanal', 'Anugul  *', 'Nayagarh  *', 'Khordha  *', 'Puri', 'Ganjam', 'Gajapati  *', 'Kandhamal', 'Baudh  *', 'Sonapur  *', 'Balangir', 'Nuapada  *', 'Kalahandi', 'Rayagada  *', 'Nabarangapur  *', 'Koraput', 'Malkangiri  *'];
-               } else if (a === 'WEST BENGAL') {
-                    var array = ['Select District', 'Darjiling ', 'Jalpaiguri ', 'Koch Bihar ', 'Uttar Dinajpur', 'Dakshin Dinajpur *', 'Maldah ', 'Murshidabad ', 'Birbhum', 'Barddhaman ', 'Nadia ', 'North Twenty Four Parganas', 'Hugli ', 'Bankura ', 'Puruliya', 'Medinipur ', 'Haora ', 'Kolkata', 'South  Twenty Four Parganas'];
-               } else if (a === 'MEGHALAYA') {
-                    var array = ['Select District', 'West Garo Hills', 'East Garo Hills', 'South Garo Hills *', 'West Khasi Hills', 'Ri Bhoi  *', 'East Khasi Hills', 'Jaintia Hills'];
-               } else if (a === 'SIKKIM') {
-                    var array = ['Select District', 'North ', 'West', 'South', 'East'];
-               } else if (a === 'UTTAR PRADESH') {
-                    var array = ['Select District', 'Saharanpur', 'Muzaffarnagar', 'Bijnor', 'Moradabad', 'Rampur', 'Jyotiba Phule Nagar *', 'Meerut', 'Baghpat *', 'Ghaziabad', 'Gautam Buddha Nagar *', 'Bulandshahr', 'Aligarh', 'Hathras *', 'Mathura', 'Agra', 'Firozabad', 'Etah', 'Mainpuri', 'Budaun', 'Bareilly', 'Pilibhit', 'Shahjahanpur', 'Kheri', 'Sitapur', 'Hardoi', 'Unnao', 'Lucknow', 'Rae Bareli', 'Farrukhabad', 'Kannauj *', 'Etawah', 'Auraiya *', 'Kanpur Dehat', 'Kanpur Nagar', 'Jalaun ', 'Jhansi', 'Lalitpur', 'Hamirpur', 'Mahoba *', 'Banda', 'Chitrakoot *', 'Fatehpur', 'Pratapgarh', 'Kaushambi *', 'Allahabad ', 'Barabanki', 'Faizabad', 'Ambedkar Nagar *', 'Sultanpur', 'Bahraich', 'Shrawasti *', 'Balrampur *', 'Gonda', 'Siddharthnagar', 'Basti', 'Sant Kabir Nagar *', 'Maharajganj', 'Gorakhpur', 'Kushinagar *', 'Deoria', 'Azamgarh', 'Mau', 'Ballia', 'Jaunpur', 'Ghazipur', 'Chandauli *', 'Varanasi', 'Sant Ravidas Nagar *', 'Mirzapur', 'Sonbhadra'];
-               } else if (a === 'RAJASTHAN') {
-                    var array = ['Select District', 'Ganganagar', 'Hanumangarh *', 'Bikaner', 'Churu', 'Jhunjhunun', 'Alwar', 'Bharatpur', 'Dhaulpur', 'Karauli *', 'Sawai Madhopur', 'Dausa *', 'Jaipur', 'Sikar', 'Nagaur', 'Jodhpur', 'Jaisalmer', 'Barmer', 'Jalor', 'Sirohi', 'Pali', 'Ajmer', 'Tonk', 'Bundi', 'Bhilwara', 'Rajsamand *', 'Udaipur', 'Dungarpur', 'Banswara', 'Chittaurgarh', 'Kota', 'Baran *', 'Jhalawar'];
-                    //check
-               } else if (a === 'PUNJAB') {
-                    var array = ['Select District', 'Gurdaspur', 'Amritsar', 'Kapurthala', 'Jalandhar', 'Hoshiarpur', 'Nawanshahr *', 'Rupnagar', 'Fatehgarh Sahib *', 'Ludhiana', 'Moga *', 'Firozpur', 'Muktsar *', 'Faridkot', 'Bathinda', 'Mansa *', 'Sangrur', 'Patiala'];
-               } else if (a === 'NAGALAND') {
-                    var array = ['Select District', 'Mon', 'Tuensang', 'Mokokchung', 'Zunheboto', 'Wokha', 'Dimapur *', 'Kohima', 'Phek', 'MANIPUR', 'Senapati', 'Tamenglong', 'Churachandpur', 'Bishnupur', 'Thoubal', 'Imphal West', 'Imphal East *', 'Ukhrul', 'Chandel'];
-               } else if (a === 'TRIPURA') {
-                    var array = ['Select District', 'West Tripura ', 'South Tripura ', 'Dhalai  *', 'North Tripura '];
-               } else if (a === 'MIZORAM') {
-                    var array = ['Select District', 'Mamit *', 'Kolasib *', 'Aizawl', 'Champhai *', 'Serchhip *', 'Lunglei', 'Lawngtlai', 'Saiha *'];
-               } else if (a === 'ARUNACHAL PRADESH') {
-                    var array = ['Select District', 'Tawang', 'West Kameng', 'East Kameng', 'Papum Pare *', 'Lower Subansiri', 'Upper Subansiri', 'West Siang', 'East Siang', 'Upper Siang *', 'Dibang Valley', 'Lohit', 'Changlang', 'Tirap'];
-               } else if (a === 'CHANDIGARH') {
-                    var array = ['Select District', 'Chandigarh'];
-               } else if (a === 'DELHI') {
-                    var array = ['Select District', 'North West   *', 'North   *', 'North East   *', 'East   *', 'New Delhi', 'Central  *', 'West   *', 'South West   *', 'South  *'];
-               } else if (a === 'DELHI') {
-                    var array = ['Select District', 'Uttarkashi', 'Chamoli', 'Rudraprayag *', 'Tehri Garhwal', 'Dehradun', 'Garhwal', 'Pithoragarh', 'Bageshwar', 'Almora', 'Champawat', 'Nainital', 'Udham Singh Nagar *', 'Hardwar'];
+               if (a === '30') {
+                    var array = ['Baringo Central ', 'Baringo North','Baringo South','Eldama Ravine','Mogotio','Tiaty'];
+               } else if (a === '36') {
+                    var array = ['Bomet Central', 'Bomet East', 'Chepalungu', 'Konoin', 'Sotik'];
+               } else if (a === '39') {
+                    var array = ['Bumula', 'Kabuchai', 'Kanduyi', 'Kimilili', 'Mt. Elgon', 'Sirisia', 'Tongaren', 'Webuye East', 'Webuye West'];
+               } else if (a === '40') {
+                    var array = ['Budalangi', 'Butula', 'Funyula', 'Matayos', 'Nambale', 'Teso North', 'Teso South'];
+               } else if (a === '28') {
+                    var array = ['Keiyo North', 'Keiyo South', 'Marakwet East', 'Marakwet West'];
+               } else if (a === '14') {
+                    var array = ['Manyatta', 'Mbeere North', 'Mbeere South', 'Runyenjes'];
+               } else if (a === '43') {
+                    var array = ['Homa Bay Town', 'Kabondo Kasipul', 'Karichuonyo', 'Kasipul', 'Mbita', 'Ndhiwa', 'Rangwe', 'Suba'];
+               } else if (a === '11') {
+                    var array = ['Isiolo North', 'Isiolo South'];
+               } else if (a === '34') {
+                    var array = ['Kajiado Central', 'Kajiado East', 'Kajiado North', 'Kajiado South', 'Kajiado West'];
+               } else if (a === '37') {
+                    var array = ['Butere', 'Ikolomani', 'Kwisero', 'Likuyani', 'Lugari', 'Lurambi', 'Malava', 'Matungu', 'Mumias East', 'Mumias West', 'Navakholo', 'Shinyalu'];
+               } else if (a === '35') {
+                    var array = ['Ainamoi', 'Belgut', 'Bureti', 'Kipkelion East', 'Kipkelion West', 'Sigowet-Soin'];
+               } else if (a === '22') {
+                    var array = ['Gatundu North', 'Gatundu South', 'Juja', 'Kabete', 'Kiambaa', 'Kiambu', 'Kikuyu', 'Lari', 'Limuru', 'Ruiru', 'Thika Town'];
+               } else if (a === '03') {
+                    var array = [ 'Ganze', 'Kaloleni', 'Kilifi North', 'Kilifi South', 'Magarini', 'Malindi', 'Rabai'];
+               } else if (a === '20') {
+                    var array = ['Gichugu', 'Kirinyaga Central', 'Mwea', 'Ndia'];
+               } else if (a === '45') {
+                    var array = ['Bobasi', 'Bomachoge Borabu', 'Bomachoge Chache', 'Bonchari', 'Kitutu Chache North', 'Kitutu Chache South', 'Nyaribari Chache', 'Nyaribari Masaba', 'South Mugirango'];
+               } else if (a === '42') {
+                    var array = ['Kisumu Central', 'Kisumu East', 'Kisumu West', 'Muhoroni', 'Nyakach', 'Nyando', 'Seme'];
+               } else if (a === '15') {
+                    var array = ['Kitui Central', 'Kitui Rural', 'Kitui South', 'Kitui West', 'Mwingi Central', 'Mwingi North', 'Mwingi West'];
+               } else if (a === '02') {
+                    var array = ['Kinango', 'Lunga Lunga', 'Matuga', 'Msambweni'];
+               } else if (a === '31') {
+                    var array = ['Laikipia East', 'Laikipia North', 'Laikipia West'];
+               } else if (a === '05') {
+                    var array = ['Lamu East', 'Lamu West'];
+               } else if (a === '16') {
+                    var array = ['Kangundo', 'Kathiani', 'Machakos Town', 'Masinga', 'Matungulu', 'Mavoko', 'Mwala', 'Yatta'];
+               } else if (a === '17') {
+                    var array = ['Kaiti ', 'Kibwezi East', 'Kibwezi West', 'Kilome', 'Makueni', 'Mbooni'];
+               } else if (a === '09') {
+                    var array = ['Banissa', 'Lafey', 'Mandera East', 'Mandera North', 'Mandera South', 'Mandera West'];
+               } else if (a === '10') {
+                    var array = ['Laisamis', 'Moyale', 'North Horr', 'Saku'];
+               } else if (a === '12') {
+                    var array = ['Buuri', 'Central Imenti', 'Igembe Central', 'Igembe North', 'Igembe South', 'North Imenti', 'South Imenti', 'Tigania East', 'Tigania West'];
+               } else if (a === '44') {
+                    var array = ['Awendo', 'Kuria East', 'Kuria West', 'Nyatike', 'Rongo', 'Suna East', 'Suna West', 'Uriri'];
+               } else if (a === '01') {
+                    var array = ['Changamwe ', 'Jomvu', 'Kisauni', 'Likoni', 'Mvita', 'Nyali'];
+               } else if (a === '21') {
+                    var array = ['Gatanga', 'Kandara', 'Kangema', 'Kigumo', 'Kiharu', 'Maragua', 'Mathioya'];
+               } else if (a === '47') {
+                    var array = ['Dagoretti', 'Dagoretti North', 'Dagoretti South', 'Embakasi Central', 'Embakasi', 'Embakasi East', 'Embakasi North', 'Embakasi South', 'Embakasi West', 'Kamukunji', 'Kasarani', 'Kibra', 'Langata', 'Makadara', 'Mathare', 'Roysambu', 'Ruaraka', 'Starehe', 'Westlands'];           
+               } else if (a === '32') {
+                    var array = ['Bahati', 'Gilgil', 'Kuresoi North', 'Kuresoi South', 'Molo', 'Naivasha', 'Nakuru Town East', 'Nakuru Town West', 'Njoro', 'Rongai', 'Subukia'];
+               } else if (a === '29') {
+                    var array = ['Aldai', 'Chesumei', 'Emgwen', 'Mosop', 'Nandi Hills', 'Tinderet'];
+               } else if (a === '33') {
+                    var array = ['Emurua Dikirr', 'Kilgoris', 'Narok East', 'Narok North', 'Narok South', 'Narok West'];
+               } else if (a === '46') {
+                    var array = [ 'Borabu', 'Kitutu Masaba', 'North Mugirango', 'West Mugirango'];
+               } else if (a === '18') {
+                    var array = ['Kinangop', 'Kipipiri', 'Ndaragwa', 'Ol Jorok', 'Ol Kalou'];
+               } else if (a === '19' ) {
+                    var array = ['Kieni', 'Mathira', 'Mukurweni', 'Nyeri Town','Othaya','Tetu'];
+               } else if (a === '25') {
+                    var array = ['Samburu East', 'Samburu North', 'Samburu West'];
+               } else if (a === '41') {
+                    var array = ['Alego', 'Bondo', 'Gem', 'Rarieda', 'Ugenya', 'Ugunja'];
+               } else if (a === '06') {
+                    var array = ['Mwatate', 'Taveta', 'Voi', 'Wundanyi'];
+               } else if (a === '04') {
+                    var array = ['Bura', 'Galole', 'Garsen'];
+               } else if (a === '13') {
+                    var array = ['Chuka', 'Maara', 'Tharaka'];
+               } else if (a === '26') {
+                    var array = ['Cherangany', 'Endebess', 'Kiminini', 'Kwanza', 'Saboti'];
+               } else if (a === '23') {
+                    var array = ['Loima', 'Turkana Central', 'Turkana East', 'Turkana North', 'Turkana South', 'Turkana West'];
+               } else if (a === '27') {
+                    var array = ['Ainabkoi', 'Kapseret', 'Kesses', 'Moiben', 'Soy', 'Turbo'];
+               } else if (a === '38') {
+                    var array = ['Emuhaya', 'Hamisi', 'Luanda', 'Sabatia', 'Vihiga'];
+               } else if (a === '08') {
+                    var array = ['Eldas', 'Tarbaj', 'Wajir East', 'Wajir North', 'Wajir South', 'Wajir West'];
+               } else if (a === '24') {
+                    var array = ['Kacheliba', 'Kapenguria', 'Pokot South', 'Sigor'];
                }
 
 
@@ -642,44 +667,54 @@ include("../Functions/functions.php");
                     <div class="col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6 p-0 States">
 
                          <select class="p-2 shadow-lg" id="states" name="stateInput" onchange="state()" tabindex="1" style="border-radius: 6px; margin-right:  200px; border-color:#FFD700 ">
-                              <option value="0">Select State</option>
-                              <option value="ANDAMAN & NICOBAR ISLANDS">ANDAMAN & NICOBAR ISLANDS</option>
-                              <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>
-                              <option value="ARUNACHAL PRADESH">ARUNACHAL PRADESH</option>
-                              <option value="ASSAM">ASSAM</option>
-                              <option value="BIHAR">BIHAR</option>
-                              <option value="CHANDIGARH">CHANDIGARH</option>
-                              <option value="CHHATTISGARH">CHHATTISGARH</option>
-                              <option value="DADRA AND NAGAR HAVELI">DADRA AND NAGAR HAVELI</option>
-                              <option value="DAMAN AND DIU">DAMAN AND DIU</option>
-                              <option value="DELHI">DELHI</option>
-                              <option value="GOA">GOA</option>
-                              <option value="GUJARAT">GUJARAT</option>
-                              <option value="HARYANA">HARYANA</option>
-                              <option value="HIMACHAL PRADESH">HIMACHAL PRADESH</option>
-                              <option value="JAMMU AND KASHMIR">JAMMU AND KASHMIR</option>
-                              <option value="JHARKAND">JHARKAND</option>
-                              <option value="KARNATAKA">KARNATAKA</option>
-                              <option value="KERALA">KERALA</option>
-                              <option value="LAKSHADWEEP">LAKSHADWEEP</option>
-                              <option value="MADHYA PRADESH">MADHYA PRADESH</option>
-                              <option value="MAHARASHTRA">MAHARASHTRA</option>
-                              <option value="MANIPUR">MANIPUR</option>
-                              <option value="MEGHALAYA">MEGHALAYA</option>
-                              <option value="MIZORAM">MIZORAM</option>
-                              <option value="NAGALAND">NAGALAND</option>
-                              <option value="ODISHA">ODISHA</option>
-                              <option value="PUDUCHERRY">PUDUCHERRY</option>
-                              <option value="PUNJAB">PUNJAB</option>
-                              <option value="RAJASTHAN">RAJASTHAN</option>
-                              <option value="SIKKIM">SIKKIM</option>
-                              <option value="TAMIL NADU">TAMIL NADU</option>
-                              <option value="TELANGANA">TELANGANA</option>
-                              <option value="TRIPURA">TRIPURA</option>
-                              <option value="UTTAR PRADESH">UTTAR PRADESH</option>
-                              <option value="UTTARAKHAND">UTTARAKHAND</option>
-                              <option value="UTTARANCHAL">UTTARANCHAL</option>
-                              <option value="WEST BENGAL">WEST BENGAL</option>
+                         <option value="0">Select State</option>
+                              <option value="30">BARINGO</option>
+                              <option value="36">BOMET</option>
+                              <option value="39">BUNGOMA</option>
+                              <option value="40">BUSIA</option>
+                              <option value="28">ELGEYO-MARAKWET</option>
+                              <option value="14">EMBU</option>
+                              <option value="07">GARISSA</option>
+                              <option value="43">HOMA BAY</option>
+                              <option value="11">ISIOLO</option>
+                              <option value="34">KAJIADO</option>
+                              <option value="37">KAKAMEGA</option>
+                              <option value="35">KERICHO</option>
+                              <option value="22">KIAMBU</option>
+                              <option value="03">KILIFI</option>
+                              <option value="20">KIRINYAGA</option>
+                              <option value="45">KISII</option>
+                              <option value="42">KISUMU</option>
+                              <option value="15">KITUI</option>
+                              <option value="02">KWALE</option>
+                              <option value="31">LAIKIPIA</option>
+                              <option value="05">LAMU</option>
+                              <option value="16">MACHAKOS</option>
+                              <option value="17">MAKUENI</option>
+                              <option value="09">MANDERA</option>
+                              <option value="10">MARSABIT</option>
+                              <option value="12">MERU</option>
+                              <option value="44">MIGORI</option>
+                              <option value="01">MOMBASA</option>
+                              <option value="21">MURANGA</option>
+                              <option value="47">NAIROBI</option>
+                              <option value="32">NAKURU</option>
+                              <option value="29">NANDI</option>
+                              <option value="33">NAROK</option>
+                              <option value="46">NYAMIRA</option>
+                              <option value="18">NYANDARUA</option>
+                              <option value="19">NYERI</option>
+                              <option value="25">SAMBURU</option>
+                              <option value="41">SIAYA</option>
+                              <option value="06">TAITA-TAVETA</option>
+                              <option value="04">TANA RIVER</option>
+                              <option value="13">THARAKA-NITHI</option>
+                              <option value="26">TRANS-NZOIA</option>
+                              <option value="23">TURKANA</option>
+                              <option value="27">UASIN GISHU</option>
+                              <option value="38">VIHIGA</option>
+                              <option value="08">WAJIR</option>
+                              <option value="24">WEST POKOT</option>
 
                          </select>
                     </div>
