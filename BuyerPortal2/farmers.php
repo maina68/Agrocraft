@@ -309,8 +309,8 @@ include("../Functions/functions.php");
                 <div class="card border-dark border" >
                     <div class="card-body ">
                         <h5 class="card-title text-center"><img src="iconbig3.png" style=" margin-bottom:  10px;"></h5>
-                        <h4 class="card-subtitle mb-2  text-center">Abhishek</h4>
-                        <p class="card-text text-center">Vashi, Maharashtra<br><br>
+                        <h4 class="card-subtitle mb-2  text-center">Maina</h4>
+                        <p class="card-text text-center">Juja, Kiambu<br><br>
                             <button type="button" class="btn  border-dark border" style="background-color:#FFD700;color:black">View Profile </button>
                         </p>
                         <!-- <a href="#" class="card-link text-center">Card link</a>
@@ -322,8 +322,8 @@ include("../Functions/functions.php");
                 <div class="card border-dark border" >
                     <div class="card-body ">
                         <h5 class="card-title text-center"><img src="iconbig.png" style=" margin-bottom:  10px;"></h5>
-                        <h4 class="card-subtitle mb-2  text-center">Ansh</h4>
-                        <p class="card-text text-center">Kopar, Maharashtra<br><br>
+                        <h4 class="card-subtitle mb-2  text-center">Omollo</h4>
+                        <p class="card-text text-center">Homa Bay, Homa Bay<br><br>
                             <button type="button" class="btn  border-dark border" style="background-color:#FFD700;color:black">View Profile </button>
                         </p>
                         <!-- <a href="#" class="card-link text-center">Card link</a>
@@ -335,8 +335,8 @@ include("../Functions/functions.php");
                 <div class="card border-dark border" >
                     <div class="card-body ">
                         <h5 class="card-title text-center"><img src="iconbig2.png" style=" margin-bottom:  10px;"></h5>
-                        <h4 class="card-subtitle mb-2  text-center">Gladina</h4>
-                        <p class="card-text text-center">Thane, Maharashtra<br><br>
+                        <h4 class="card-subtitle mb-2  text-center">Chepkirui</h4>
+                        <p class="card-text text-center">Kapsabet, Nandi<br><br>
                             <button type="button" class="btn  border-dark border" style="background-color:#FFD700;color:black">View Profile </button>
                         </p>
                         <!-- <a href="#" class="card-link text-center">Card link</a>
@@ -348,8 +348,8 @@ include("../Functions/functions.php");
                 <div class="card border-dark border" >
                     <div class="card-body ">
                         <h5 class="card-title text-center"><img src="iconbig4.png" style=" margin-bottom:  10px;"></h5>
-                        <h4 class="card-subtitle mb-2  text-center">Calista</h4>
-                        <p class="card-text text-center">Wadala, Maharashtra<br><br>
+                        <h4 class="card-subtitle mb-2  text-center">Mueni</h4>
+                        <p class="card-text text-center">Machakos, Machakos<br><br>
                             <button type="button" class="btn  border-dark border" style="background-color:#FFD700;color:black">View Profile </button>
                         </p>
                         <!-- <a href="#" class="card-link text-center">Card link</a>
