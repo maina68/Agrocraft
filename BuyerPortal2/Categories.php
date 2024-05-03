@@ -829,7 +829,7 @@ include("../Functions/functions.php");
                                 </div>
                             </div>
                         </div>
-                        <p class='card-text mb-2 font-weight-bold'>PRICE:- $product_price Rs/kg</p>
+                        <p class='card-text mb-2 font-weight-bold'>PRICE:- $product_price Ksh/kg</p>
                         <div class='row'>
                             <div class='col-1 col-xl-3 col-lg-2 col-md-2 col-sm-2'></div>
                             <div class='col-12 col-xl-6 col-lg-6 col-md-6  col-sm-12'>

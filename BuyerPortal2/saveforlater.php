@@ -303,7 +303,7 @@ include("../Functions/functions.php");
                 <div class="card pl-3 pr-3 pb-0 pt-2 mt-2 ">
                     <br>
                     <div><b>
-                            <h3><img src="iconsmall.png"> ABHISHEK
+                            <h3><img src="iconsmall.png"> Steve
                         </b>
                        <button class="cross" style="border-style:none;background-color:transparent;"><i class="fas fa-times"style=""></i></button>
                         </h3>
@@ -311,8 +311,8 @@ include("../Functions/functions.php");
                     </div>
                     <img class="card-img-top" src="fruit1.jpeg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Orange</h5>
-                        <p class="card-text">PRICE:-20rs/kg</p>
+                        <h5 class="card-title">Maize</h5>
+                        <p class="card-text">PRICE:-130ksh/kg</p>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text bg-warning border-secondary" style="color:black" id="inputGroup-sizing-default"><b>Quantity</b></span>
@@ -327,13 +327,13 @@ include("../Functions/functions.php");
                 <div class="card  pl-3 pr-3 pb-0 pt-2 mt-2 ">
                     <br>
                     <div><b>
-                            <h3><img src="iconsmall.png"> ABHISHEK
+                            <h3><img src="iconsmall.png"> George Maina
                         </b></h3>
                     </div>
                     <img class="card-img-top pic" src="myfruit1.jfif" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Orange</h5>
-                        <p class="card-text">PRICE:-20rs/kg</p>
+                        <h5 class="card-title">Apples</h5>
+                        <p class="card-text">PRICE:-40ksh/kg</p>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text bg-warning border-secondary" style="color:black" id="inputGroup-sizing-default"><b>Quantity</b></span>
@@ -348,13 +348,13 @@ include("../Functions/functions.php");
                 <div class="card pl-3 pr-3 pb-0 pt-2 mt-2  ">
                     <br>
                     <div><b>
-                            <h3><img src="iconsmall.png"> ABHISHEK
+                            <h3><img src="iconsmall.png"> Charles Gateru
                         </b></h3>
                     </div>
                     <img class="card-img-top" src="myfruit4.jfif" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Orange</h5>
-                        <p class="card-text">PRICE:-20rs/kg</p>
+                        <h5 class="card-title">Grapes</h5>
+                        <p class="card-text">PRICE:-50ksh/kg</p>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text bg-warning border-secondary" style="color:black" id="inputGroup-sizing-default"><b>Quantity</b></span>
@@ -371,13 +371,13 @@ include("../Functions/functions.php");
                 <div class="card pl-3 pr-3 pb-0 pt-2 mt-2  ">
                     <br>
                     <div><b>
-                            <h3><img src="iconsmall.png"> ABHISHEK
+                            <h3><img src="iconsmall.png"> Kariuki
                         </b></h3>
                     </div>
                     <img class="card-img-top" src="myfruit4.jfif" alt="Card image cap" height="315px">
                     <div class="card-body">
                         <h5 class="card-title">Orange</h5>
-                        <p class="card-text">PRICE:-20rs/kg</p>
+                        <p class="card-text">PRICE:-100ksh/kg</p>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text bg-warning border-secondary" style="color:black" id="inputGroup-sizing-default"><b>Quantity</b></span>
@@ -392,13 +392,13 @@ include("../Functions/functions.php");
                 <div class="card pl-3 pr-3 pb-0 pt-2 mt-2 ">
                     <br>
                     <div><b>
-                            <h3><img src="iconsmall.png"> ABHISHEK
+                            <h3><img src="iconsmall.png"> Wanjiku
                         </b></h3>
                     </div>
                     <img class="card-img-top" src="myfruit4.jfif" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Orange</h5>
-                        <p class="card-text">PRICE:-20rs/kg</p>
+                        <p class="card-text">PRICE:-20ksh/kg</p>
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text bg-warning border-secondary" style="color:black" id="inputGroup-sizing-default"><b>Quantity</b></span>
